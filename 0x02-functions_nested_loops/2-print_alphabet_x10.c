@@ -1,16 +1,16 @@
-#include <main.h>
+#include "main.h"
 /**
  * 2-print_alphabet_x10.c - print alphabet x10
  * by Nnadi
  * Return: Nothing
  *
  */
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
 	int i;
 	char c;
 
-	for (1 = 0; i < 10; ++i)
+	for (i = 0; i < 10; ++i)
 	{
 		for (c = 'a'; c <= 'z'; c++)
 		{
