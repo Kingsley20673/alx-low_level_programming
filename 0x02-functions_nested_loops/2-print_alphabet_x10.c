@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * 2-print_alphabet_x10.c - print alphabet x10
+ * print_alphabet_x10 - print alphabet 10 times
  * by Nnadi
  * Return: Nothing
  *
