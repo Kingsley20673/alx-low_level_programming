@@ -1,2 +1,1 @@
-This directory is all about debugging
-lets go
+0x03. C - Debugging
