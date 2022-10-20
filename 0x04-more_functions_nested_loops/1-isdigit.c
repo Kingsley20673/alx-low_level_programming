@@ -3,18 +3,18 @@
 /**
  * -isdigit - check if;there is a digit in the input
  *  @c: input
- *  Return: 0.
+ *  Return: return 1 if there is digit an 0 other wise
  */
 int _isdigit(int c);
 {
 	char c;
 	c = '0';
-	if (c >= 0 && c <= 9)
+	if ((c >= 48) && (c <= 57))
 	{
-		return 1;
+		return (1);
 	}
 	else
 	{
-		return 0;
+		return (0);
 	}
 }
