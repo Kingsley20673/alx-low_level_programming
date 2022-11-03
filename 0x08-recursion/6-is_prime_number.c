@@ -11,7 +11,8 @@ int is_prime_number2(int x, int y)
 	if (x == y)
 		return (1);
 	if ((x % y) == 0)
-		return (is_prime_number2(x, y + 1));
+		return (0);
+	return (is_prime_number2(x, y + 1));
 }
 
 /**
