@@ -8,10 +8,10 @@
 *Return: 0
 */
 
-int main(int argc, char *argv[])
+int main(int argc, char *argv[] __attribute__((unused)))
 {
-	int c = argc - 1;
+	int i = argc - 1;
 
-	printf("the number of arg is: %d\n", c);
+	printf("%d\n", i);
 	return (0);
 }
