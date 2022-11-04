@@ -10,13 +10,8 @@
 
 int main(int argc, char *argv[])
 {
-	int c;
-	int n;
+	int c = argc - 1;
 
-	n = 0;
-	if (argc != 0)
-		for (c = 0; c < argc; c++)
-			n++;
-		printf("%d\n", n);
+	printf("the number of arg is: %d\n", c);
 	return (0);
 }
