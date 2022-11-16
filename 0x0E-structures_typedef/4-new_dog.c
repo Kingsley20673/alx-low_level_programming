@@ -11,7 +11,7 @@
  * Return: a pointer to the structure
  */
 
- dog_t *new_dog(char *name, float age, char *owner)
+dog_t *new_dog(char *name, float age, char *owner)
 {
 	int i, j, k;
 	dog_t *p;
