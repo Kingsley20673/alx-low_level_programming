@@ -2,7 +2,7 @@
 
 /**
 * add_nodeint - a func that add a node at the frontbof a linked list;
-* @*head: head
+* @head: head
 * @n: element of the node
 * Return: new node;
 */
